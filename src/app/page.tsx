@@ -174,7 +174,7 @@ export default function Page() {
                 height={250}
                 className="rounded-lg mb-3"
               />
-              <h4 className="font-semibold">1. Book a quick call</h4>
+              <h4 className="font-semibold">Book a quick call</h4>
               <p className="text-sm text-gray-500 mt-2">
                 We diagnose the highest-impact opportunities in 15 minutes.
               </p>
@@ -188,7 +188,7 @@ export default function Page() {
                 height={250}
                 className="rounded-lg mb-3"
               />
-              <h4 className="font-semibold">2. Action plan</h4>
+              <h4 className="font-semibold">Action plan</h4>
               <p className="text-sm text-gray-500 mt-2">
                 Get a short, tactical plan focused on revenue-driving changes.
               </p>
@@ -202,7 +202,7 @@ export default function Page() {
                 height={250}
                 className="rounded-lg mb-3"
               />
-              <h4 className="font-semibold">3. Implement & scale</h4>
+              <h4 className="font-semibold">Implement & scale</h4>
               <p className="text-sm text-gray-500 mt-2">
                 I’ll help set up systems or guide your team to execute faster.
               </p>
