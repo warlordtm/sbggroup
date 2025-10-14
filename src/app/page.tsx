@@ -211,109 +211,216 @@ export default function Page() {
         </section>
 
         {/* RESULTS */}
-        <section id="results" className="bg-gradient-to-r from-white via-sky-50 to-white py-16">
+        <section
+          id="results"
+          className="bg-gradient-to-r from-white via-sky-50 to-white py-16"
+        >
           <div className="max-w-6xl mx-auto px-6">
-            <h3 className="text-2xl font-bold">Results clients talk about</h3>
-            <div className="mt-8 grid gap-6 md:grid-cols-3">
-              <div className="bg-white p-6 rounded-xl shadow">
+            <h3 className="text-2xl font-bold text-center">Results clients talk about</h3>
+            <p className="text-gray-600 text-center mt-2 max-w-2xl mx-auto">
+              Real stories from consultants and founders who gained clarity, structure, and measurable growth.
+            </p>
+
+            <div className="mt-10 grid gap-8 md:grid-cols-3">
+              {/* Testimonial 1 */}
+              <div className="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition-shadow duration-300">
                 <Image
                   src="/maleclient1.jpg"
                   alt="Client success 1"
                   width={400}
                   height={250}
-                  className="rounded-lg mb-3"
+                  className="rounded-lg mb-4"
                 />
-                <blockquote>
-                  <div className="text-lg font-semibold">
-                    <div className="text-lg font-semibold">
-                      &quot;Doubled my revenue in 60 days&quot;
-                    </div>
-
-                  </div>
-                  <div className="text-sm text-gray-500 mt-2">— David Lintaker</div>
+                <blockquote className="text-gray-700 leading-relaxed">
+                  &quot;Before working with Jamie, I was stuck guessing my next move — 
+                  no clear system, just effort. Within a few weeks, we streamlined my client onboarding, 
+                  refined my offer, and built a repeatable process. I now close clients faster 
+                  and doubled my monthly revenue in 60 days. It finally feels like my business is working for me, not the other way around.&quot;
                 </blockquote>
+                <div className="mt-4 font-semibold text-gray-900">— David Lintaker</div>
+                <div className="text-sm text-gray-500">Founder, DL Growth Consulting</div>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow">
+              {/* Testimonial 2 */}
+              <div className="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition-shadow duration-300">
                 <Image
                   src="/femaleclient.jpg"
                   alt="Client success 2"
                   width={400}
                   height={250}
-                  className="rounded-lg mb-3"
+                  className="rounded-lg mb-4"
                 />
-                <blockquote>
-                  <div className="text-lg font-semibold">
-                    &quot;Clear steps that actually worked&quot;
-                  </div>
-                  <div className="text-sm text-gray-500 mt-2">— Sandra Jones</div>
+                <blockquote className="text-gray-700 leading-relaxed">
+                  &quot;Jamie helped me turn scattered ideas into a focused action plan. 
+                  We mapped out my sales process, refined my offer, and built a content strategy that actually brings inbound leads. 
+                  The clarity I gained from just two sessions was unreal — no fluff, just practical next steps that worked.&quot;
                 </blockquote>
+                <div className="mt-4 font-semibold text-gray-900">— Sandra Jones</div>
+                <div className="text-sm text-gray-500">Independent Marketing Consultant</div>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow">
+              {/* Testimonial 3 */}
+              <div className="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition-shadow duration-300">
                 <Image
                   src="/maleclient2.jpg"
                   alt="Client success 3"
                   width={400}
                   height={250}
-                  className="rounded-lg mb-3"
+                  className="rounded-lg mb-4"
                 />
-                <blockquote>
-                  <div className="text-lg font-semibold">
-                    &quot;I finally had a sales process that converted.&quot;
-                  </div>
-                  <div className="text-sm text-gray-500 mt-2">— Jeferry James</div>
+                <blockquote className="text-gray-700 leading-relaxed">
+                  &quot;I had been running my consulting business for two years but had no reliable way to convert calls into clients. 
+                  Jamie’s structured framework gave me the missing system. Within a month, I was confidently closing calls and finally tracking consistent results. 
+                  My business now feels predictable and scalable.&quot;
                 </blockquote>
+                <div className="mt-4 font-semibold text-gray-900">— Jeffrey James</div>
+                <div className="text-sm text-gray-500">Sales Strategy Coach</div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* FINAL CTA */}
-        <section id="contact" className="max-w-6xl mx-auto px-6 py-16">
-          <div className="bg-white p-8 rounded-2xl shadow text-center">
-            <Image
-              src="/booking.jpg"
-              alt="Book a call visual"
-              width={700}
-              height={400}
-              className="rounded-xl mx-auto mb-6"
-            />
-            <h3 className="text-2xl font-bold">
-              Ready to get clarity and take action?
-            </h3>
-            <p className="mt-3 text-gray-600">
-              Book a short strategy call and leave with a simple, actionable plan.
-            </p>
-            <div className="mt-6">
-              <a
-                href="https://sbgschedule.com"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium"
-              >
-                Book Your Strategy Call
-              </a>
-            </div>
-          </div>
-        </section>
 
         {/* FOOTER */}
-        <footer className="bg-white border-t py-6">
-          <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="text-sm text-gray-600">
-              © sbggroup
+        <footer className="bg-gray-900 text-gray-300 pt-16 pb-10 mt-20">
+          <div className="max-w-6xl mx-auto px-6 grid gap-10 md:grid-cols-5">
+            {/* Company Info */}
+            <div className="md:col-span-2">
+              <h4 className="text-white text-lg font-semibold mb-3">
+                Jamie White Consulting
+              </h4>
+              <p className="text-sm leading-relaxed mb-4 text-gray-400">
+                Helping consultants and founders gain clarity, structure, and consistent
+                growth. One actionable plan at a time.
+              </p>
+              <div className="mt-3 text-sm text-gray-500">
+                © {new Date().getFullYear()} Jamie White Consulting. All rights reserved.
+              </div>
             </div>
-            <div className="flex items-center gap-3">
-              <a href="#" className="text-sm text-gray-600 hover:underline">
-                Privacy
-              </a>
-              <a href="#" className="text-sm text-gray-600 hover:underline">
-                Terms
-              </a>
+
+            {/* Company */}
+            <div>
+              <h5 className="text-white font-semibold mb-3">Company</h5>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <a href="#how" className="hover:text-white transition">
+                    How It Works
+                  </a>
+                </li>
+                <li>
+                  <a href="#results" className="hover:text-white transition">
+                    Results
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="hover:text-white transition">
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a href="https://sbgschedule.com" target="_blank" rel="noreferrer" className="hover:text-white transition">
+                    Book a Call
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Services */}
+            <div>
+              <h5 className="text-white font-semibold mb-3">Services</h5>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Business Strategy
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Marketing Optimization
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Operations Scaling
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Growth Audits
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Insights + Newsletter */}
+            <div>
+              <h5 className="text-white font-semibold mb-3">Insights</h5>
+              <p className="text-sm text-gray-400 mb-4">
+                Join 20,000+ other professionals and get weekly insights to help you
+                grow your business with clarity and confidence.
+              </p>
+              <form className="flex items-center">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="w-full px-3 py-2 rounded-l-md text-gray-900 text-sm focus:outline-none"
+                />
+                <button
+                  type="submit"
+                  className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-r-md transition"
+                >
+                  Subscribe
+                </button>
+              </form>
+
+              {/* Social Links */}
+              <div className="flex items-center gap-4 mt-5">
+                <a href="#" className="hover:text-white transition" aria-label="LinkedIn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    className="w-5 h-5"
+                  >
+                    <path d="M19 0h-14c-2.761 0-5 2.238-5 5v14c0 2.761 2.239 5 5 
+                            5h14c2.762 0 5-2.239 5-5v-14c0-2.762-2.238-5-5-5zm-11 
+                            19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.792-1.75-1.766
+                            s.784-1.766 1.75-1.766 1.75.792 1.75 1.766-.784 1.766
+                            -1.75 1.766zm13.5 11.268h-3v-5.604c0-1.337-.027-3.06
+                            -1.865-3.06-1.867 0-2.154 1.46-2.154 2.97v5.694h-3v-10h2.879v1.367h.041c.4-.757
+                            1.379-1.555 2.837-1.555 3.034 0 3.597 2.002 3.597 4.605v5.583z" />
+                  </svg>
+                </a>
+                <a href="#" className="hover:text-white transition" aria-label="Twitter">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    className="w-5 h-5"
+                  >
+                    <path d="M24 4.557a9.9 9.9 0 0 1-2.828.775 
+                            4.932 4.932 0 0 0 2.165-2.724 
+                            9.864 9.864 0 0 1-3.127 1.195 
+                            4.918 4.918 0 0 0-8.38 4.482 
+                            13.95 13.95 0 0 1-10.125-5.138 
+                            4.822 4.822 0 0 0 1.523 6.574 
+                            4.903 4.903 0 0 1-2.229-.616v.062 
+                            a4.923 4.923 0 0 0 3.946 4.827 
+                            4.996 4.996 0 0 1-2.224.085 
+                            4.936 4.936 0 0 0 4.604 3.417 
+                            9.869 9.869 0 0 1-6.102 2.104 
+                            c-.396 0-.788-.023-1.175-.069 
+                            a13.945 13.945 0 0 0 7.548 2.212 
+                            c9.057 0 14.009-7.513 14.009-14.009 
+                            0-.213-.004-.425-.014-.636A10.025 
+                            10.025 0 0 0 24 4.557z" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </footer>
+
       </main>
     </div>
   );
