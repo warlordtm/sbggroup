@@ -13,7 +13,7 @@ export default function Page() {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <Image
-                src="/1750447234957.jpeg"
+                src="/jamie.jpeg"
                 alt="Profile"
                 width={40}
                 height={40}
@@ -168,7 +168,7 @@ export default function Page() {
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             <div className="bg-white p-6 rounded-xl shadow">
               <Image
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf"
+                src="/book.jpg"
                 alt="Book a call"
                 width={400}
                 height={250}
@@ -182,7 +182,7 @@ export default function Page() {
 
             <div className="bg-white p-6 rounded-xl shadow">
               <Image
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+                src="/actionplan.jpg"
                 alt="Action plan"
                 width={400}
                 height={250}
@@ -196,7 +196,7 @@ export default function Page() {
 
             <div className="bg-white p-6 rounded-xl shadow">
               <Image
-                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7"
+                src="/implement.jpg"
                 alt="Implement and scale"
                 width={400}
                 height={250}
@@ -217,7 +217,7 @@ export default function Page() {
             <div className="mt-8 grid gap-6 md:grid-cols-3">
               <div className="bg-white p-6 rounded-xl shadow">
                 <Image
-                  src="https://images.unsplash.com/photo-1598257006458-087169a1f08c"
+                  src="/maleclient1.jpg"
                   alt="Client success 1"
                   width={400}
                   height={250}
@@ -233,7 +233,7 @@ export default function Page() {
 
               <div className="bg-white p-6 rounded-xl shadow">
                 <Image
-                  src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9"
+                  src="/femaleclient.jpg"
                   alt="Client success 2"
                   width={400}
                   height={250}
@@ -249,7 +249,7 @@ export default function Page() {
 
               <div className="bg-white p-6 rounded-xl shadow">
                 <Image
-                  src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+                  src="/maleclient2.jpg"
                   alt="Client success 3"
                   width={400}
                   height={250}
@@ -270,7 +270,7 @@ export default function Page() {
         <section id="contact" className="max-w-6xl mx-auto px-6 py-16">
           <div className="bg-white p-8 rounded-2xl shadow text-center">
             <Image
-              src="https://images.unsplash.com/photo-1557804506-669a67965ba0"
+              src="/booking.jpg"
               alt="Book a call visual"
               width={700}
               height={400}
