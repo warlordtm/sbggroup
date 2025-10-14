@@ -1,21 +1,28 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { Menu, X } from "lucide-react"; // for icons
 
 export default function Page() {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  // Smooth scroll function for internal links
-  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, id: string) => {
+  const handleScroll = (
+    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    id: string
+  ) => {
     e.preventDefault();
     document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
+    setMenuOpen(false); // close menu after clicking a link
   };
+
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 antialiased">
       {/* NAV */}
       <header className="bg-white shadow-sm fixed top-0 left-0 w-full z-50">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+          {/* Logo + Brand */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <Image
@@ -28,17 +35,33 @@ export default function Page() {
             </div>
             <div>
               <h1 className="text-lg font-bold">Jamie White Consulting</h1>
-              <p className="text-xs text-gray-500">Clarity · Strategy · Growth</p>
+              <p className="text-xs text-gray-500">
+                Clarity · Strategy · Growth
+              </p>
             </div>
           </div>
+
+          {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-6 text-sm">
-            <a href="#how" onClick={(e) => handleScroll(e, "#how")} className="hover:underline">
+            <a
+              href="#how"
+              onClick={(e) => handleScroll(e, "#how")}
+              className="hover:underline"
+            >
               How it works
             </a>
-            <a href="#results" onClick={(e) => handleScroll(e, "#results")} className="hover:underline">
+            <a
+              href="#results"
+              onClick={(e) => handleScroll(e, "#results")}
+              className="hover:underline"
+            >
               Results
             </a>
-            <a href="#contact-form" onClick={(e) => handleScroll(e, "#contact-form")} className="hover:underline">
+            <a
+              href="#contact-form"
+              onClick={(e) => handleScroll(e, "#contact-form")}
+              className="hover:underline"
+            >
               Contact
             </a>
             <a
@@ -50,8 +73,60 @@ export default function Page() {
               Book a Call
             </a>
           </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="md:hidden text-gray-800 focus:outline-none"
+            aria-label="Toggle menu"
+          >
+            {menuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
+
+        {/* Mobile Dropdown Menu */}
+        {menuOpen && (
+          <motion.nav
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.2 }}
+            className="md:hidden bg-white border-t border-gray-100 shadow-sm"
+          >
+            <div className="flex flex-col items-center gap-4 py-4 text-sm">
+              <a
+                href="#how"
+                onClick={(e) => handleScroll(e, "#how")}
+                className="hover:underline"
+              >
+                How it works
+              </a>
+              <a
+                href="#results"
+                onClick={(e) => handleScroll(e, "#results")}
+                className="hover:underline"
+              >
+                Results
+              </a>
+              <a
+                href="#contact-form"
+                onClick={(e) => handleScroll(e, "#contact-form")}
+                className="hover:underline"
+              >
+                Contact
+              </a>
+              <a
+                href="https://sbgschedule.com"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-blue-600 text-white px-5 py-2 rounded-md shadow hover:brightness-95"
+              >
+                Book a Call
+              </a>
+            </div>
+          </motion.nav>
+        )}
       </header>
+
 
       {/* HERO */}
       <main>
