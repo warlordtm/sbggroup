@@ -225,7 +225,10 @@ export default function Page() {
                 />
                 <blockquote>
                   <div className="text-lg font-semibold">
-                    "Doubled my revenue in 60 days"
+                    <div className="text-lg font-semibold">
+                      &quot;Doubled my revenue in 60 days&quot;
+                    </div>
+
                   </div>
                   <div className="text-sm text-gray-500 mt-2">— David Lintaker</div>
                 </blockquote>
@@ -241,7 +244,7 @@ export default function Page() {
                 />
                 <blockquote>
                   <div className="text-lg font-semibold">
-                    "Clear steps that actually worked"
+                    &quot;Clear steps that actually worked&quot;
                   </div>
                   <div className="text-sm text-gray-500 mt-2">— Sandra Jones</div>
                 </blockquote>
@@ -257,7 +260,7 @@ export default function Page() {
                 />
                 <blockquote>
                   <div className="text-lg font-semibold">
-                    "I finally had a sales process that converted."
+                    &quot;I finally had a sales process that converted.&quot;
                   </div>
                   <div className="text-sm text-gray-500 mt-2">— Jeferry James</div>
                 </blockquote>
