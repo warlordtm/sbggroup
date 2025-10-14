@@ -5,6 +5,12 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function Page() {
+
+  // Smooth scroll function for internal links
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, id: string) => {
+    e.preventDefault();
+    document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 antialiased">
       {/* NAV */}
@@ -26,13 +32,13 @@ export default function Page() {
             </div>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm">
-            <a href="#how" className="hover:underline">
+            <a href="#how" onClick={(e) => handleScroll(e, "#how")} className="hover:underline">
               How it works
             </a>
-            <a href="#results" className="hover:underline">
+            <a href="#results" onClick={(e) => handleScroll(e, "#results")} className="hover:underline">
               Results
             </a>
-            <a href="#contact" className="hover:underline">
+            <a href="#contact-form" onClick={(e) => handleScroll(e, "#contact-form")} className="hover:underline">
               Contact
             </a>
             <a
@@ -279,6 +285,35 @@ export default function Page() {
             </div>
           </div>
         </section>
+
+        {/* CONTACT */}
+        <motion.section
+          id="contact-form"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="bg-white py-20"
+        >
+          <div className="max-w-4xl mx-auto px-6">
+            <h2 className="text-3xl font-bold text-center mb-4">Contact Us</h2>
+            <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
+              Have a question before booking a call? Fill out the form and our team will get back to you within 24 hours.
+            </p>
+            <form className="bg-gray-50 p-8 rounded-xl shadow-md grid gap-6 md:grid-cols-2">
+              <input placeholder="First Name" className="border border-gray-300 rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-500" />
+              <input placeholder="Last Name" className="border border-gray-300 rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-500" />
+              <input placeholder="Email" type="email" className="border border-gray-300 rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-500" />
+              <input placeholder="Phone Number" type="tel" className="border border-gray-300 rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-500" />
+              <textarea placeholder="How may we help you?" rows={5} className="md:col-span-2 border border-gray-300 rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-500"></textarea>
+              <div className="md:col-span-2 flex justify-center">
+                <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-md transition">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </motion.section>
 
 
         {/* FOOTER */}
