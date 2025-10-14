@@ -313,7 +313,7 @@ export default function Page() {
                   className="rounded-lg mb-4"
                 />
                 <blockquote className="text-gray-700 leading-relaxed">
-                  &quot;Before working with Jamie, I was stuck guessing my next move — 
+                  &quot;Before working with Jamie, I was stuck guessing my next move, 
                   no clear system, just effort. Within a few weeks, we streamlined my client onboarding, 
                   refined my offer, and built a repeatable process. I now close clients faster 
                   and doubled my monthly revenue in 60 days. It finally feels like my business is working for me, not the other way around.&quot;
@@ -334,7 +334,7 @@ export default function Page() {
                 <blockquote className="text-gray-700 leading-relaxed">
                   &quot;Jamie helped me turn scattered ideas into a focused action plan. 
                   We mapped out my sales process, refined my offer, and built a content strategy that actually brings inbound leads. 
-                  The clarity I gained from just two sessions was unreal — no fluff, just practical next steps that worked.&quot;
+                  The clarity I gained from just two sessions was unreal, no fluff, just practical next steps that worked.&quot;
                 </blockquote>
                 <div className="mt-4 font-semibold text-gray-900">— Sandra Jones</div>
                 <div className="text-sm text-gray-500">Independent Marketing Consultant</div>
