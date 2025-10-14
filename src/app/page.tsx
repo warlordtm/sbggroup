@@ -2,16 +2,23 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 antialiased">
       {/* NAV */}
-      <header className="bg-white shadow-sm">
+      <header className="bg-white shadow-sm fixed top-0 left-0 w-full z-50">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-semibold">
-              J
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+              <Image
+                src="/1750447234957.jpeg"
+                alt="Profile"
+                width={40}
+                height={40}
+                className="object-cover w-full h-full"
+              />
             </div>
             <div>
               <h1 className="text-lg font-bold">Jamie White Consulting</h1>
@@ -160,6 +167,13 @@ export default function Page() {
 
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             <div className="bg-white p-6 rounded-xl shadow">
+              <Image
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf"
+                alt="Book a call"
+                width={400}
+                height={250}
+                className="rounded-lg mb-3"
+              />
               <h4 className="font-semibold">1. Book a quick call</h4>
               <p className="text-sm text-gray-500 mt-2">
                 We diagnose the highest-impact opportunities in 15 minutes.
@@ -167,6 +181,13 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow">
+              <Image
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+                alt="Action plan"
+                width={400}
+                height={250}
+                className="rounded-lg mb-3"
+              />
               <h4 className="font-semibold">2. Action plan</h4>
               <p className="text-sm text-gray-500 mt-2">
                 Get a short, tactical plan focused on revenue-driving changes.
@@ -174,6 +195,13 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow">
+              <Image
+                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7"
+                alt="Implement and scale"
+                width={400}
+                height={250}
+                className="rounded-lg mb-3"
+              />
               <h4 className="font-semibold">3. Implement & scale</h4>
               <p className="text-sm text-gray-500 mt-2">
                 I’ll help set up systems or guide your team to execute faster.
@@ -187,26 +215,53 @@ export default function Page() {
           <div className="max-w-6xl mx-auto px-6">
             <h3 className="text-2xl font-bold">Results clients talk about</h3>
             <div className="mt-8 grid gap-6 md:grid-cols-3">
-              <blockquote className="bg-white p-6 rounded-xl shadow">
-                <div className="text-lg font-semibold">
-                  "Doubled my revenue in 60 days"
-                </div>
-                <div className="text-sm text-gray-500 mt-2">— Client A</div>
-              </blockquote>
+              <div className="bg-white p-6 rounded-xl shadow">
+                <Image
+                  src="https://images.unsplash.com/photo-1598257006458-087169a1f08c"
+                  alt="Client success 1"
+                  width={400}
+                  height={250}
+                  className="rounded-lg mb-3"
+                />
+                <blockquote>
+                  <div className="text-lg font-semibold">
+                    "Doubled my revenue in 60 days"
+                  </div>
+                  <div className="text-sm text-gray-500 mt-2">— David Lintaker</div>
+                </blockquote>
+              </div>
 
-              <blockquote className="bg-white p-6 rounded-xl shadow">
-                <div className="text-lg font-semibold">
-                  "Clear steps that actually worked"
-                </div>
-                <div className="text-sm text-gray-500 mt-2">— Client B</div>
-              </blockquote>
+              <div className="bg-white p-6 rounded-xl shadow">
+                <Image
+                  src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9"
+                  alt="Client success 2"
+                  width={400}
+                  height={250}
+                  className="rounded-lg mb-3"
+                />
+                <blockquote>
+                  <div className="text-lg font-semibold">
+                    "Clear steps that actually worked"
+                  </div>
+                  <div className="text-sm text-gray-500 mt-2">— Sandra Jones</div>
+                </blockquote>
+              </div>
 
-              <blockquote className="bg-white p-6 rounded-xl shadow">
-                <div className="text-lg font-semibold">
-                  "I finally had a sales process that converted."
-                </div>
-                <div className="text-sm text-gray-500 mt-2">— Client C</div>
-              </blockquote>
+              <div className="bg-white p-6 rounded-xl shadow">
+                <Image
+                  src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+                  alt="Client success 3"
+                  width={400}
+                  height={250}
+                  className="rounded-lg mb-3"
+                />
+                <blockquote>
+                  <div className="text-lg font-semibold">
+                    "I finally had a sales process that converted."
+                  </div>
+                  <div className="text-sm text-gray-500 mt-2">— Jeferry James</div>
+                </blockquote>
+              </div>
             </div>
           </div>
         </section>
@@ -214,6 +269,13 @@ export default function Page() {
         {/* FINAL CTA */}
         <section id="contact" className="max-w-6xl mx-auto px-6 py-16">
           <div className="bg-white p-8 rounded-2xl shadow text-center">
+            <Image
+              src="https://images.unsplash.com/photo-1557804506-669a67965ba0"
+              alt="Book a call visual"
+              width={700}
+              height={400}
+              className="rounded-xl mx-auto mb-6"
+            />
             <h3 className="text-2xl font-bold">
               Ready to get clarity and take action?
             </h3>
@@ -237,7 +299,7 @@ export default function Page() {
         <footer className="bg-white border-t py-6">
           <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-sm text-gray-600">
-              © Jamie White Consulting
+              © sbggroup
             </div>
             <div className="flex items-center gap-3">
               <a href="#" className="text-sm text-gray-600 hover:underline">
