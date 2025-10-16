@@ -165,121 +165,120 @@ export default function Page() {
       {/* HERO */}
       <main>
         <section className="relative overflow-hidden mt-20">
-  <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid gap-10 md:grid-cols-2 items-center">
-    {/* Left Text Section */}
-    <div>
-      <motion.h2
-        initial={{ y: 24, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.05, duration: 0.5 }}
-        className="text-3xl md:text-4xl font-extrabold leading-tight text-gray-900"
-      >
-        Find the ONE Strategy That Can Transform Your Professional Service Business
-      </motion.h2>
+          <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid gap-10 md:grid-cols-2 items-center">
+            {/* Left Text Section */}
+            <div>
+              <motion.h2
+                initial={{ y: 24, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.05, duration: 0.5 }}
+                className="text-3xl md:text-4xl font-extrabold leading-tight text-gray-900"
+              >
+                Find the ONE Strategy That Can Transform Your Professional Service Business
+              </motion.h2>
 
-      <motion.p
-        initial={{ y: 12, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.15, duration: 0.45 }}
-        className="mt-4 text-gray-700 max-w-xl leading-relaxed"
-      >
-        In this private strategy call, we’ll uncover the “Big Domino” in your business,
-        the single most powerful growth lever that can simplify operations and multiply
-        your results. This isn’t theory. It’s the proven SANDOR methodology used by over
-        3,000 business owners to unlock major breakthroughs in less time.
-      </motion.p>
+              <motion.p
+                initial={{ y: 12, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.15, duration: 0.45 }}
+                className="mt-4 text-gray-700 max-w-xl leading-relaxed"
+              >
+                In this private strategy call, we’ll uncover the “Big Domino” in your business,
+                the single most powerful growth lever that can simplify operations and multiply
+                your results. This isn’t theory. It’s the proven SANDOR methodology used by over
+                3,000 business owners to unlock major breakthroughs in less time.
+              </motion.p>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.25, duration: 0.5 }}
-        className="mt-6 flex flex-wrap gap-3"
-      >
-        <a
-          href="https://sbgschedule.com"
-          target="_blank"
-          rel="noreferrer"
-          className="inline-block bg-blue-600 text-white px-5 py-3 rounded-md font-medium shadow hover:bg-blue-700 transition-colors duration-300"
-        >
-          Book Your Breakthrough Call
-        </a>
-        <a
-          href="#how"
-          className="inline-block border border-gray-300 px-4 py-3 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-        >
-          How It Works
-        </a>
-      </motion.div>
-    </div>
-
-    {/* Right Snapshot Card */}
-    <motion.div
-      initial={{ scale: 0.98, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      transition={{ delay: 0.2, duration: 0.6 }}
-      className="bg-white rounded-2xl shadow-lg p-6 max-w-xl mx-auto"
-    >
-      <div className="mb-4">
-        <div className="text-xs text-gray-500 uppercase tracking-wide">Quick Snapshot</div>
-        <div className="text-lg font-semibold text-gray-900">
-          Free 15-Minute SANDOR Strategy Call
-        </div>
-      </div>
-
-      <ul className="space-y-3 text-gray-700">
-        <li className="flex items-start gap-3">
-          <span className="inline-block bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs">
-            ✔
-          </span>
-          <div>
-            <div className="text-sm font-medium">Identify Your “Big Domino”</div>
-            <div className="text-xs text-gray-500">
-              Pinpoint the single biggest factor that will unlock your next stage of growth.
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.25, duration: 0.5 }}
+                className="mt-6 flex flex-wrap gap-3"
+              >
+                <a
+                  href="https://sbgschedule.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block bg-blue-600 text-white px-5 py-3 rounded-md font-medium shadow hover:bg-blue-700 transition-colors duration-300"
+                >
+                  Book Your Breakthrough Call
+                </a>
+                <a
+                  href="#how"
+                  className="inline-block border border-gray-300 px-4 py-3 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+                >
+                  How It Works
+                </a>
+              </motion.div>
             </div>
+
+            {/* Right Snapshot Card */}
+            <motion.div
+              initial={{ scale: 0.98, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
+              className="bg-white rounded-2xl shadow-lg p-6 max-w-xl mx-auto"
+            >
+              <div className="mb-4">
+                <div className="text-xs text-gray-500 uppercase tracking-wide">Quick Snapshot</div>
+                <div className="text-lg font-semibold text-gray-900">
+                  Free 15-Minute SANDOR Strategy Call
+                </div>
+              </div>
+
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start gap-3">
+                  <span className="inline-block bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs">
+                    ✔
+                  </span>
+                  <div>
+                    <div className="text-sm font-medium">Identify Your “Big Domino”</div>
+                    <div className="text-xs text-gray-500">
+                      Pinpoint the single biggest factor that will unlock your next stage of growth.
+                    </div>
+                  </div>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="inline-block bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs">
+                    ✔
+                  </span>
+                  <div>
+                    <div className="text-sm font-medium">Customized Roadmap</div>
+                    <div className="text-xs text-gray-500">
+                      Get a clear, actionable 30-day plan tailored to your business goals.
+                    </div>
+                  </div>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="inline-block bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs">
+                    ✔
+                  </span>
+                  <div>
+                    <div className="text-sm font-medium">Proven Framework</div>
+                    <div className="text-xs text-gray-500">
+                      Apply the same SANDOR methodology used by 3,000+ businesses worldwide.
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <div className="mt-6">
+                <a
+                  href="https://sbgschedule.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block text-center bg-blue-600 text-white rounded-md px-4 py-3 font-medium hover:bg-blue-700 transition-colors duration-300"
+                >
+                  Book a Call
+                </a>
+              </div>
+            </motion.div>
           </div>
-        </li>
-
-        <li className="flex items-start gap-3">
-          <span className="inline-block bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs">
-            ✔
-          </span>
-          <div>
-            <div className="text-sm font-medium">Customized Roadmap</div>
-            <div className="text-xs text-gray-500">
-              Get a clear, actionable 30-day plan tailored to your business goals.
-            </div>
-          </div>
-        </li>
-
-        <li className="flex items-start gap-3">
-          <span className="inline-block bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs">
-            ✔
-          </span>
-          <div>
-            <div className="text-sm font-medium">Proven Framework</div>
-            <div className="text-xs text-gray-500">
-              Apply the same SANDOR methodology used by 3,000+ businesses worldwide.
-            </div>
-          </div>
-        </li>
-      </ul>
-
-      <div className="mt-6">
-        <a
-          href="https://sbgschedule.com"
-          target="_blank"
-          rel="noreferrer"
-          className="block text-center bg-blue-600 text-white rounded-md px-4 py-3 font-medium hover:bg-blue-700 transition-colors duration-300"
-        >
-          Book a Call
-        </a>
-      </div>
-    </motion.div>
-  </div>
-</section>
+        </section>
 
 
-        {/* HOW IT WORKS */}
          {/* HOW IT WORKS SECTION */}
       <section id="how" className="max-w-6xl mx-auto px-6 py-14">
         <h3 className="text-2xl font-bold">How it works</h3>
@@ -297,7 +296,7 @@ export default function Page() {
               height={250}
               className="rounded-lg mb-3"
             />
-            <h4 className="font-semibold">1. Book your session</h4>
+            <h4 className="font-semibold"> Book your session</h4>
             <p className="text-sm text-gray-500 mt-2">
               Choose a convenient time and tell us a bit about your business
               goals before the call.
@@ -312,7 +311,7 @@ export default function Page() {
               height={250}
               className="rounded-lg mb-3"
             />
-            <h4 className="font-semibold">2. Deep-dive discovery</h4>
+            <h4 className="font-semibold">Deep-dive discovery</h4>
             <p className="text-sm text-gray-500 mt-2">
               We’ll diagnose what’s working, what’s not, and identify the
               highest-impact opportunities.
@@ -327,146 +326,191 @@ export default function Page() {
               height={250}
               className="rounded-lg mb-3"
             />
-            <h4 className="font-semibold">3. Action & implementation</h4>
+            <h4 className="font-semibold">Action & implementation</h4>
             <p className="text-sm text-gray-500 mt-2">
               Walk away with a laser-focused plan you can implement immediately
-              — with or without ongoing support.
+              with or without ongoing support.
             </p>
           </div>
         </div>
       </section>
 
-      {/* CLIENT RESULTS SECTION */}
-      <section id="results" className="bg-gray-50 py-16">
-        <div className="max-w-6xl mx-auto px-6">
-          <h3 className="text-2xl font-bold text-center">Client Results</h3>
-          <p className="mt-3 text-gray-600 text-center max-w-2xl mx-auto">
-            Real transformations from professional service firms who applied
-            these same breakthrough principles.
+        {/* SALES LETTER OVERVIEW SECTION */}
+        <section id="results" className="max-w-6xl mx-auto px-6 py-14">
+          <h3 className="text-2xl font-bold">Real Results: The Power of Finding Your One Big Domino</h3>
+          <p className="mt-3 text-gray-600 max-w-2xl">
+            See what happens when the SANDOR methodology is applied with focus and discipline.
           </p>
 
-          <div className="mt-10 grid gap-8 md:grid-cols-3">
-            <div className="bg-white rounded-xl shadow p-6">
-              <p className="text-gray-600 italic">
-                “We went from plateaued revenue to our best quarter ever within
-                90 days. The clarity Jamie provided was the missing link.”
-              </p>
-              <div className="mt-4 font-semibold text-gray-800">
-                — Managing Partner, Accounting Firm
-              </div>
-            </div>
+          {/* Brooke Castillo Story */}
+          <div className="mt-10 bg-white rounded-xl shadow p-8">
+            <h4 className="text-xl font-semibold mb-2">Case Study: Brooke Castillo</h4>
+            <p className="text-sm text-gray-500 mb-4">From $300K to $5M — all by focusing on ONE thing.</p>
 
-            <div className="bg-white rounded-xl shadow p-6">
-              <p className="text-gray-600 italic">
-                “I finally understood where our bottlenecks were. We implemented
-                just two of the recommended changes and saw 3× client retention.”
-              </p>
-              <div className="mt-4 font-semibold text-gray-800">
-                — Operations Consultant, Sydney
+            <div className="space-y-4">
+              <div>
+                <h5 className="font-semibold">Challenge</h5>
+                <p className="text-gray-600">
+                  Brooke was running a thriving business generating around $300,000 annually, but she wanted more.
+                  Like most entrepreneurs, she had countless ideas and directions to try.
+                </p>
               </div>
-            </div>
 
-            <div className="bg-white rounded-xl shadow p-6">
-              <p className="text-gray-600 italic">
-                “It’s rare to find advice that’s both strategic and
-                immediately actionable. This session was worth every minute.”
-              </p>
-              <div className="mt-4 font-semibold text-gray-800">
-                — Agency Owner, Melbourne
+              <div>
+                <h5 className="font-semibold">Solution</h5>
+                <p className="text-gray-600">
+                  Using the SANDOR approach, Frank Kern suggested one bold move: double her prices.
+                  Despite initial hesitation, she tested it — and her sales remained strong.
+                </p>
+              </div>
+
+              <div>
+                <h5 className="font-semibold">Result</h5>
+                <p className="text-gray-600">
+                  Within a year, Brooke crossed the seven-figure mark. When she focused on her next big domino — adding one
+                  complementary offer — her revenue skyrocketed to $5 million. Today, she works just three days a week while
+                  her systems scale effortlessly.
+                </p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+
+          {/* Jamie's Story */}
+          <div className="mt-10 bg-white rounded-xl shadow p-8">
+            <h4 className="text-xl font-semibold mb-2">Case Study: Jamie White</h4>
+            <p className="text-sm text-gray-500 mb-4">Applying the same method to his own business.</p>
+
+            <div className="space-y-4">
+              <div>
+                <h5 className="font-semibold">Challenge</h5>
+                <p className="text-gray-600">
+                  Like many consultants, Jamie was juggling multiple growth initiatives, chasing new clients, and working long hours
+                  just to maintain revenue targets.
+                </p>
+              </div>
+
+              <div>
+                <h5 className="font-semibold">Solution</h5>
+                <p className="text-gray-600">
+                  By applying the SANDOR methodology to his own business, Jamie identified his “one big domino” — a single change that
+                  would deliver outsized impact without adding more complexity.
+                </p>
+              </div>
+
+              <div>
+                <h5 className="font-semibold">Result</h5>
+                <p className="text-gray-600">
+                  That decision increased his revenue by 40% within six months and allowed him to specialize exclusively in helping
+                  professional service businesses achieve the same breakthrough using SANDOR.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-10">
+            <p className="text-gray-700 font-medium">
+              Imagine what could happen if you found <span className="text-blue-600 font-semibold">your own “one big domino.”</span>
+            </p>
+            <a
+              href="#"
+              className="inline-block mt-6 bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition"
+            >
+              Find My One Thing
+            </a>
+          </div>
+        </section>
+
+
+
 
         {/* RESULTS */}
         <section id="testimonials" className="bg-gray-50 py-20">
-      <div className="max-w-6xl mx-auto px-6 text-center">
-        <motion.h2
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="text-4xl font-bold text-gray-900 mb-10"
-        >
-          Real Business Breakthroughs From Our Clients
-        </motion.h2>
+          <div className="max-w-6xl mx-auto px-6 text-center">
+            <motion.h2
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="text-4xl font-bold text-gray-900 mb-10"
+            >
+              Real Business Breakthroughs From Our Clients
+            </motion.h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {testimonials.map((t, i) => (
-            <motion.div
-              key={i}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+              {testimonials.map((t, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: i * 0.1 }}
+                  viewport={{ once: true }}
+                  className="bg-white shadow-lg rounded-2xl p-8 text-left hover:shadow-xl transition-shadow duration-300"
+                >
+                  <p className="text-gray-700 italic mb-6 leading-relaxed">
+                    “{t.quote}”
+                  </p>
+                  <div className="border-t pt-4">
+                    <h4 className="font-semibold text-gray-900">{t.name}</h4>
+                    <p className="text-sm text-gray-600">{t.role}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="book-call" className="bg-blue-50 py-20">
+          <div className="max-w-5xl mx-auto px-6 text-center">
+            <motion.h2
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="text-4xl font-bold text-gray-900 mb-6"
+            >
+              Reserve Your Business Breakthrough Session
+            </motion.h2>
+
+            <motion.p
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: i * 0.1 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
-              className="bg-white shadow-lg rounded-2xl p-8 text-left hover:shadow-xl transition-shadow duration-300"
+              className="text-lg text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed"
             >
-              <p className="text-gray-700 italic mb-6 leading-relaxed">
-                “{t.quote}”
-              </p>
-              <div className="border-t pt-4">
-                <h4 className="font-semibold text-gray-900">{t.name}</h4>
-                <p className="text-sm text-gray-600">{t.role}</p>
-              </div>
+              This is your chance to step away from the day-to-day grind and focus on
+              uncovering the ONE strategic move that could transform your entire business.
+              In just four hours, we’ll identify your biggest growth opportunity and map out
+              a clear implementation plan designed to deliver measurable results within months.
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="inline-block"
+            >
+              <Link
+                href="#"
+                className="bg-blue-600 text-white text-lg font-semibold py-4 px-8 rounded-full shadow-md hover:bg-blue-700 transition duration-300"
+              >
+                Schedule Your Session
+              </Link>
             </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
 
-    <section id="book-call" className="bg-blue-50 py-20">
-      <div className="max-w-5xl mx-auto px-6 text-center">
-        <motion.h2
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="text-4xl font-bold text-gray-900 mb-6"
-        >
-          Reserve Your Business Breakthrough Session
-        </motion.h2>
-
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          viewport={{ once: true }}
-          className="text-lg text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed"
-        >
-          This is your chance to step away from the day-to-day grind and focus on
-          uncovering the ONE strategic move that could transform your entire business.
-          In just four hours, we’ll identify your biggest growth opportunity and map out
-          a clear implementation plan designed to deliver measurable results within months.
-        </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          viewport={{ once: true }}
-          className="inline-block"
-        >
-          <Link
-            href="#"
-            className="bg-blue-600 text-white text-lg font-semibold py-4 px-8 rounded-full shadow-md hover:bg-blue-700 transition duration-300"
-          >
-            Schedule Your Session
-          </Link>
-        </motion.div>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          viewport={{ once: true }}
-          className="text-gray-600 mt-8 text-sm"
-        >
-          Limited to <strong>3 professional service businesses</strong> per month.
-          One spot remains for this month.
-        </motion.p>
-      </div>
-    </section>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="text-gray-600 mt-8 text-sm"
+            >
+              Limited to <strong>3 professional service businesses</strong> per month.
+              One spot remains for this month.
+            </motion.p>
+          </div>
+        </section>
 
         {/* CONTACT */}
         <motion.section
