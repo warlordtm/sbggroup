@@ -336,67 +336,67 @@ export default function Page() {
       </section>
 
         {/* SALES LETTER OVERVIEW SECTION */}
-        <section id="sandon-story" className="max-w-6xl mx-auto px-6 py-14 text-center">
-          <h3 className="text-2xl font-bold text-center">The Power of Finding Your One Big Domino</h3>
-          <p className="mt-3 text-gray-600 max-w-3xl mx-auto">
-            What if one strategic move could double, triple, or even 10x your professional service business — without adding more work or complexity?
-            That’s exactly what happens when you apply the SANDOR methodology.
-          </p>
-
-          <div className="mt-8 space-y-6 text-gray-700 leading-relaxed text-left md:text-justify">
-            <p>
-              Frank Kern first introduced SANDOR to a client named <strong>Brooke Castillo</strong> back in 2014.
-              At the time, Brooke was making around <strong>$300,000 per year</strong> and wanted to grow — but like many ambitious business owners,
-              she had a million different ideas competing for her attention.
+        <section id="sandon-story" className="max-w-6xl mx-auto px-6 py-20">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl md:text-4xl font-extrabold text-gray-900">
+              The Power of Finding Your One Big Domino
+            </h3>
+            <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
+              What if one strategic move could double, triple, or even 10x your business without adding more work or complexity?  
+              That’s the power of the SANDOR methodology.
             </p>
+          </div>
 
+          <div className="prose prose-lg mx-auto mt-8 space-y-6 text-gray-700 leading-relaxed text-left md:text-justify">
             <p>
-              Frank suggested one simple move: <em>“What if you just double your prices?”</em> Brooke hesitated — “Nobody will buy,” she said.
-              But she tried it anyway.
+              Frank Kern first introduced the SANDOR approach to a client named <strong>Brooke Castillo</strong> in 2014.  
+              At the time, Brooke was earning around <strong>$300,000 per year</strong> and wanted to grow, but she was pulled in too many directions.
             </p>
 
             <p>
-              The result? <strong>No drop in sales.</strong> Clients kept buying. Encouraged, she raised prices again.
-              The extra revenue allowed her to run more ads, expand her reach, and by the end of the year, she had hit her
-              <strong>first million in revenue.</strong>
+              Frank suggested one simple change: <em>“What if you just double your prices?”</em>  
+              Brooke was skeptical, she thought no one would buy. But she tried it.
             </p>
 
             <p>
-              The following year, Brooke applied SANDOR again — this time to remove herself from daily operations and focus on scaling.
-              The “one big domino” this time was adding <strong>a single complementary offer</strong> to her existing business.
-              That one strategic addition took her business to <strong>$5 million in annual revenue</strong>.
-              Today, she works just three days a week and her systems run smoothly without her constant involvement.
+              The result? <strong>No drop in sales.</strong> Clients kept buying. Encouraged, she raised prices again.  
+              The extra revenue allowed her to run more ads and reach new audiences. By the end of that year, she crossed her first million in revenue.
             </p>
 
             <p>
-              When I applied the same SANDOR principles to my own professional service business, everything changed.
-              I went from the constant hustle — chasing new clients, juggling multiple projects, working nights and weekends —
-              to identifying the one thing that truly moved the needle. That single shift increased my revenue by
-              <strong>40% in just six months.</strong>
+              The following year, she applied SANDOR again, this time to scale and step out of daily operations.  
+              The next big domino was adding a single complementary offer to her business.  
+              That one change helped her reach <strong>$5 million in annual revenue</strong>.  
+              Today, she works three days a week and spends the rest of her time doing what she enjoys most.
             </p>
 
             <p>
-              Now, I help other professional service businesses find their own “big domino” — the one strategic move that can transform
-              their revenue, reduce their workload, and bring clarity to their growth strategy.
-              This is what the <strong>Half-Day SANDOR Breakthrough Session</strong> is all about.
+              When I applied the same principles to my own professional service business, the results were immediate.  
+              I went from constantly chasing clients and juggling multiple projects to identifying the one thing that truly moved the needle.  
+              That single shift increased my revenue by <strong>40% in six months</strong>.
             </p>
 
             <p>
-              In just four focused hours, we’ll identify your unique big domino, design a 30-day implementation roadmap,
-              and create a strategic plan aimed to deliver a <strong>minimum 10x return</strong> within six months.
-              It’s a proven process that’s helped over <strong>3,000 business owners</strong> unlock their next level of growth.
+              Now, I specialize in helping other professional service businesses find their own “big domino”   
+              the one strategic move that transforms growth, simplifies operations, and increases profit with less effort.
             </p>
 
-            <p className="text-blue-600 font-semibold text-center">
-              The truth is, major breakthroughs don’t come from doing more — they come from doing the right one thing, really well.
+            <p>
+              During our <strong>Half-Day SANDOR Breakthrough Session</strong>, we’ll identify your unique big domino, create a 30-day implementation roadmap,  
+              and design a plan aimed at delivering a <strong>minimum 10x return</strong> within six months.  
+              This process has helped more than <strong>3,000 business owners</strong> achieve measurable breakthroughs.
             </p>
 
-            <div className="text-center mt-10">
+            <blockquote className="border-l-4 border-blue-600 pl-4 italic text-gray-800 my-8">
+              “Major breakthroughs don’t come from doing more. They come from doing the right one thing, really well.”
+            </blockquote>
+
+            <div className="mt-12 text-center">
               <a
                 href="#schedule"
-                className="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition"
+                className="inline-block bg-blue-600 text-white font-semibold py-3 px-10 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-200"
               >
-                Schedule Your Breakthrough Session
+                Schedule Your Session
               </a>
               <p className="text-gray-500 mt-3 text-sm">
                 Limited to 3 professional service businesses per month.
@@ -406,44 +406,50 @@ export default function Page() {
         </section>
 
 
-
-
-
         {/* RESULTS */}
-        <section id="testimonials" className="bg-gray-50 py-20">
+          <section id="testimonials" className="bg-gray-50 py-20">
           <div className="max-w-6xl mx-auto px-6 text-center">
             <motion.h2
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="text-4xl font-bold text-gray-900 mb-10"
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-10"
             >
               Real Business Breakthroughs From Our Clients
             </motion.h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-              {testimonials.map((t, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: i * 0.1 }}
-                  viewport={{ once: true }}
-                  className="bg-white shadow-lg rounded-2xl p-8 text-left hover:shadow-xl transition-shadow duration-300"
-                >
-                  <p className="text-gray-700 italic mb-6 leading-relaxed">
-                    “{t.quote}”
-                  </p>
-                  <div className="border-t pt-4">
-                    <h4 className="font-semibold text-gray-900">{t.name}</h4>
-                    <p className="text-sm text-gray-600">{t.role}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
+            <motion.div
+              className="overflow-hidden cursor-grab active:cursor-grabbing"
+              whileTap={{ cursor: "grabbing" }}
+            >
+              <motion.div
+                drag="x"
+                dragConstraints={{ left: -((testimonials.length - 1) * 180), right: 0 }}
+                className="flex gap-4"
+                transition={{ type: "spring", stiffness: 300, damping: 30 }}
+              >
+                {testimonials.map((t, i) => (
+                  <motion.div
+                    key={i}
+                    className="bg-white shadow-md rounded-xl p-4 text-left min-w-[160px] max-w-[300px] flex-shrink-0 mx-auto border border-gray-100 hover:shadow-lg transition-shadow duration-300"
+                  >
+                    <p className="text-gray-700 text-sm italic mb-4 leading-snug line-clamp-6">
+                      “{t.quote}”
+                    </p>
+                    <div className="border-t pt-3">
+                      <h4 className="font-semibold text-gray-900 text-sm">{t.name}</h4>
+                      <p className="text-xs text-gray-500">{t.role}</p>
+                    </div>
+                  </motion.div>
+                ))}
+              </motion.div>
+            </motion.div>
           </div>
         </section>
+
+
+
 
         <section id="book-call" className="bg-blue-50 py-20">
           <div className="max-w-5xl mx-auto px-6 text-center">
@@ -577,22 +583,22 @@ export default function Page() {
               <h5 className="text-white font-semibold mb-3">Services</h5>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a className="hover:text-white transition">
                     Business Strategy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a className="hover:text-white transition">
                     Marketing Optimization
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a className="hover:text-white transition">
                     Operations Scaling
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a className="hover:text-white transition">
                     Growth Audits
                   </a>
                 </li>
@@ -603,7 +609,7 @@ export default function Page() {
             <div>
               <h5 className="text-white font-semibold mb-3">Insights</h5>
               <p className="text-sm text-gray-400 mb-4">
-                Join 20,000+ other professionals and get weekly insights to help you
+                Join 1,000+ other professionals and get weekly insights to help you
                 grow your business with clarity and confidence.
               </p>
               <form className="flex items-center">
