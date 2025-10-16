@@ -34,7 +34,7 @@ export default function Page() {
               />
             </div>
             <div>
-              <h1 className="text-lg font-bold">Jamie White Consulting</h1>
+              <h1 className="text-lg font-bold">SBGGROUP</h1>
               <p className="text-xs text-gray-500">
                 Clarity · Strategy · Growth
               </p>
@@ -397,7 +397,7 @@ export default function Page() {
             {/* Company Info */}
             <div className="md:col-span-2">
               <h4 className="text-white text-lg font-semibold mb-3">
-                Jamie White Consulting
+                SBGGROUP
               </h4>
               <p className="text-sm leading-relaxed mb-4 text-gray-400">
                 Helping consultants and founders gain clarity, structure, and consistent
