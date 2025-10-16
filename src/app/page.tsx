@@ -408,45 +408,45 @@ export default function Page() {
 
         {/* RESULTS */}
           <section id="testimonials" className="bg-gray-50 py-20">
-          <div className="max-w-6xl mx-auto px-6 text-center">
-            <motion.h2
-              id='results'
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-3xl md:text-4xl font-bold text-gray-900 mb-10"
-            >
-              Real Business Breakthroughs From Our Clients
-            </motion.h2>
-
-            <motion.div
-              className="overflow-hidden cursor-grab active:cursor-grabbing"
-              whileTap={{ cursor: "grabbing" }}
-            >
-              <motion.div
-                drag="x"
-                dragConstraints={{ left: -((testimonials.length - 1) * 180), right: 0 }}
-                className="flex gap-4"
-                transition={{ type: "spring", stiffness: 300, damping: 30 }}
+            <div className="max-w-6xl mx-auto px-6 text-center">
+              <motion.h2
+                id='results'
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+                className="text-3xl md:text-4xl font-bold text-gray-900 mb-5"
               >
-                {testimonials.map((t, i) => (
-                  <motion.div
-                    key={i}
-                    className="bg-white shadow-md rounded-xl p-4 text-left min-w-[160px] max-w-[300px] flex-shrink-0 mx-auto border border-gray-100 hover:shadow-lg transition-shadow duration-300"
-                  >
-                    <p className="text-gray-700 text-sm italic mb-4 leading-snug line-clamp-6">
-                      “{t.quote}”
-                    </p>
-                    <div className="border-t pt-3">
-                      <h4 className="font-semibold text-gray-900 text-sm">{t.name}</h4>
-                      <p className="text-xs text-gray-500">{t.role}</p>
-                    </div>
-                  </motion.div>
-                ))}
+                Real Business Breakthroughs From Our Clients
+              </motion.h2>
+
+              <motion.div
+                className="overflow-hidden cursor-grab active:cursor-grabbing"
+                whileTap={{ cursor: "grabbing" }}
+              >
+                <motion.div
+                  drag="x"
+                  dragConstraints={{ left: -((testimonials.length - 1) * 180), right: 0 }}
+                  className="flex gap-4"
+                  transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                >
+                  {testimonials.map((t, i) => (
+                    <motion.div
+                      key={i}
+                      className=" shadow-md rounded-xl p-4 text-left min-w-[160px] max-w-[300px] flex-shrink-0 mx-auto border border-gray-100 hover:shadow-lg transition-shadow duration-300 bg-white my-10"
+                    >
+                      <p className="text-gray-700 text-sm italic mb-4 leading-snug line-clamp-6">
+                        “{t.quote}”
+                      </p>
+                      <div className="border-t pt-3">
+                        <h4 className="font-semibold text-gray-900 text-sm">{t.name}</h4>
+                        <p className="text-xs text-gray-500">{t.role}</p>
+                      </div>
+                    </motion.div>
+                  ))}
+                </motion.div>
               </motion.div>
-            </motion.div>
-          </div>
+            </div>
         </section>
 
 
