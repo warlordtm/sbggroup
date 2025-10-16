@@ -336,89 +336,75 @@ export default function Page() {
       </section>
 
         {/* SALES LETTER OVERVIEW SECTION */}
-        <section id="results" className="max-w-6xl mx-auto px-6 py-14">
-          <h3 className="text-2xl font-bold">Real Results: The Power of Finding Your One Big Domino</h3>
-          <p className="mt-3 text-gray-600 max-w-2xl">
-            See what happens when the SANDOR methodology is applied with focus and discipline.
+        <section id="sandon-story" className="max-w-6xl mx-auto px-6 py-14 text-center">
+          <h3 className="text-2xl font-bold text-center">The Power of Finding Your One Big Domino</h3>
+          <p className="mt-3 text-gray-600 max-w-3xl mx-auto">
+            What if one strategic move could double, triple, or even 10x your professional service business — without adding more work or complexity?
+            That’s exactly what happens when you apply the SANDOR methodology.
           </p>
 
-          {/* Brooke Castillo Story */}
-          <div className="mt-10 bg-white rounded-xl shadow p-8">
-            <h4 className="text-xl font-semibold mb-2">Case Study: Brooke Castillo</h4>
-            <p className="text-sm text-gray-500 mb-4">From $300K to $5M — all by focusing on ONE thing.</p>
-
-            <div className="space-y-4">
-              <div>
-                <h5 className="font-semibold">Challenge</h5>
-                <p className="text-gray-600">
-                  Brooke was running a thriving business generating around $300,000 annually, but she wanted more.
-                  Like most entrepreneurs, she had countless ideas and directions to try.
-                </p>
-              </div>
-
-              <div>
-                <h5 className="font-semibold">Solution</h5>
-                <p className="text-gray-600">
-                  Using the SANDOR approach, Frank Kern suggested one bold move: double her prices.
-                  Despite initial hesitation, she tested it — and her sales remained strong.
-                </p>
-              </div>
-
-              <div>
-                <h5 className="font-semibold">Result</h5>
-                <p className="text-gray-600">
-                  Within a year, Brooke crossed the seven-figure mark. When she focused on her next big domino — adding one
-                  complementary offer — her revenue skyrocketed to $5 million. Today, she works just three days a week while
-                  her systems scale effortlessly.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Jamie's Story */}
-          <div className="mt-10 bg-white rounded-xl shadow p-8">
-            <h4 className="text-xl font-semibold mb-2">Case Study: Jamie White</h4>
-            <p className="text-sm text-gray-500 mb-4">Applying the same method to his own business.</p>
-
-            <div className="space-y-4">
-              <div>
-                <h5 className="font-semibold">Challenge</h5>
-                <p className="text-gray-600">
-                  Like many consultants, Jamie was juggling multiple growth initiatives, chasing new clients, and working long hours
-                  just to maintain revenue targets.
-                </p>
-              </div>
-
-              <div>
-                <h5 className="font-semibold">Solution</h5>
-                <p className="text-gray-600">
-                  By applying the SANDOR methodology to his own business, Jamie identified his “one big domino” — a single change that
-                  would deliver outsized impact without adding more complexity.
-                </p>
-              </div>
-
-              <div>
-                <h5 className="font-semibold">Result</h5>
-                <p className="text-gray-600">
-                  That decision increased his revenue by 40% within six months and allowed him to specialize exclusively in helping
-                  professional service businesses achieve the same breakthrough using SANDOR.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center mt-10">
-            <p className="text-gray-700 font-medium">
-              Imagine what could happen if you found <span className="text-blue-600 font-semibold">your own “one big domino.”</span>
+          <div className="mt-8 space-y-6 text-gray-700 leading-relaxed text-left md:text-justify">
+            <p>
+              Frank Kern first introduced SANDOR to a client named <strong>Brooke Castillo</strong> back in 2014.
+              At the time, Brooke was making around <strong>$300,000 per year</strong> and wanted to grow — but like many ambitious business owners,
+              she had a million different ideas competing for her attention.
             </p>
-            <a
-              href="#"
-              className="inline-block mt-6 bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition"
-            >
-              Find My One Thing
-            </a>
+
+            <p>
+              Frank suggested one simple move: <em>“What if you just double your prices?”</em> Brooke hesitated — “Nobody will buy,” she said.
+              But she tried it anyway.
+            </p>
+
+            <p>
+              The result? <strong>No drop in sales.</strong> Clients kept buying. Encouraged, she raised prices again.
+              The extra revenue allowed her to run more ads, expand her reach, and by the end of the year, she had hit her
+              <strong>first million in revenue.</strong>
+            </p>
+
+            <p>
+              The following year, Brooke applied SANDOR again — this time to remove herself from daily operations and focus on scaling.
+              The “one big domino” this time was adding <strong>a single complementary offer</strong> to her existing business.
+              That one strategic addition took her business to <strong>$5 million in annual revenue</strong>.
+              Today, she works just three days a week and her systems run smoothly without her constant involvement.
+            </p>
+
+            <p>
+              When I applied the same SANDOR principles to my own professional service business, everything changed.
+              I went from the constant hustle — chasing new clients, juggling multiple projects, working nights and weekends —
+              to identifying the one thing that truly moved the needle. That single shift increased my revenue by
+              <strong>40% in just six months.</strong>
+            </p>
+
+            <p>
+              Now, I help other professional service businesses find their own “big domino” — the one strategic move that can transform
+              their revenue, reduce their workload, and bring clarity to their growth strategy.
+              This is what the <strong>Half-Day SANDOR Breakthrough Session</strong> is all about.
+            </p>
+
+            <p>
+              In just four focused hours, we’ll identify your unique big domino, design a 30-day implementation roadmap,
+              and create a strategic plan aimed to deliver a <strong>minimum 10x return</strong> within six months.
+              It’s a proven process that’s helped over <strong>3,000 business owners</strong> unlock their next level of growth.
+            </p>
+
+            <p className="text-blue-600 font-semibold text-center">
+              The truth is, major breakthroughs don’t come from doing more — they come from doing the right one thing, really well.
+            </p>
+
+            <div className="text-center mt-10">
+              <a
+                href="#schedule"
+                className="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition"
+              >
+                Schedule Your Breakthrough Session
+              </a>
+              <p className="text-gray-500 mt-3 text-sm">
+                Limited to 3 professional service businesses per month.
+              </p>
+            </div>
           </div>
         </section>
+
 
 
 
