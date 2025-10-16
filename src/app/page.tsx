@@ -68,7 +68,7 @@ export default function Page() {
               />
             </div>
             <div>
-              <h1 className="text-lg font-bold">SBGGROUP</h1>
+              <h1 className="text-lg font-bold">Jamie White Consulting</h1>
               <p className="text-xs text-gray-500">
                 Clarity · Strategy · Growth
               </p>
