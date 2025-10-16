@@ -410,6 +410,7 @@ export default function Page() {
           <section id="testimonials" className="bg-gray-50 py-20">
           <div className="max-w-6xl mx-auto px-6 text-center">
             <motion.h2
+              id='results'
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
@@ -540,7 +541,7 @@ export default function Page() {
             {/* Company Info */}
             <div className="md:col-span-2">
               <h4 className="text-white text-lg font-semibold mb-3">
-                SBGGROUP
+                Jamie White
               </h4>
               <p className="text-sm leading-relaxed mb-4 text-gray-400">
                 Helping consultants and founders gain clarity, structure, and consistent
@@ -628,7 +629,7 @@ export default function Page() {
 
               {/* Social Links */}
               <div className="flex items-center gap-4 mt-5">
-                <a href="#" className="hover:text-white transition" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/jamie-white-70aa22248/" target='_blank' className="hover:text-white transition" aria-label="LinkedIn">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -644,7 +645,7 @@ export default function Page() {
                             1.379-1.555 2.837-1.555 3.034 0 3.597 2.002 3.597 4.605v5.583z" />
                   </svg>
                 </a>
-                <a href="#" className="hover:text-white transition" aria-label="Twitter">
+                {/* <a href="#" className="hover:text-white transition" aria-label="Twitter">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -668,7 +669,7 @@ export default function Page() {
                             0-.213-.004-.425-.014-.636A10.025 
                             10.025 0 0 0 24 4.557z" />
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
