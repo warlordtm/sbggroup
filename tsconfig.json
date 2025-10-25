@@ -1,27 +1,46 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+    /* Basic Options */
+    "target": "ES2020",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
+
+    /* Module Resolution */
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+
+    /* JSX + Next.js Support */
     "jsx": "preserve",
     "incremental": true,
+
+    /* Next.js Plugin */
     "plugins": [
       {
         "name": "next"
       }
     ],
+
+    /* Path Aliases */
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/ContactForm.jsx"],
-  "exclude": ["node_modules"]
+
+  /* Include all source + type files */
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+
+  /* Exclude build + dependency folders */
+  "exclude": ["node_modules", ".next"]
 }
